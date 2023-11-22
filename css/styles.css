@@ -9,12 +9,7 @@ body {
   color: #444444;
 }
 
-*:focus {
-  outline-color: #ff7500;
-  outline-offset: 3px;
-  outline-width: 2px;
-  outline-style: dashed;
-}
+
 ul {
   list-style: none;
 }
