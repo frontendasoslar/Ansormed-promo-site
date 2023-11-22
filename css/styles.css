@@ -9,6 +9,12 @@ body {
   color: #444444;
 }
 
+*:focus {
+  outline-color: #ff7500;
+  outline-offset: 3px;
+  outline-width: 2px;
+  outline-style: dashed;
+}
 ul {
   list-style: none;
 }
@@ -85,11 +91,15 @@ ul a {
   align-items: center;
 }
 
+.logos {
+  text-decoration: none;
+}
+
 /* Logo */
 .logo {
   width: 50px;
   height: 50px;
-  transition: opacity 0.5s ease;
+  transition: opacity 0.3s ease;
 }
 
 .logo:hover {
@@ -108,7 +118,7 @@ ul a {
   color: #222;
   margin: 0;
   padding: 0;
-  transition: opacity 0.5s ease, color 0.5s ease;
+  transition: opacity 0.3s ease, color 0.3s ease;
 }
 
 .logo-text:hover {
@@ -123,7 +133,7 @@ ul a {
 /* heaner navigatsiyasi matni */
 .header-nav-text {
   color: #222;
-  transition: opacity 0.5s ease, color 0.5s ease;
+  transition: opacity 0.3s ease, color 0.3s ease;
 }
 
 .header-nav-text:hover {
@@ -137,24 +147,28 @@ ul a {
  }
 
  .button {
+  display: inline-block;
+  width: 190px;
   background-color: #DE2E54;
   color: #fff;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 13px;
   font-family: "Open sans", "Arial", sans-serif;
   font-weight: 700;
   font-style: normal;
   line-height: 1.5;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   text-transform: uppercase;
-  padding: 12px 24px 12px 24px;
-  border: 2px solid #DE2E54;
+  padding: 10px 22px 10px 22px;
+  border: 2px solid transparent;
   border-radius: 8px;
-  transition: opacity 0.5s ease ;
+  transition: background-color  0.3s ease opacity 0.3s ease color  0.3s ease ;
  }
 
  .button:hover {
-  opacity: 0.8;
+  background-color: #fff;
+  color: #DE2E54;
+  border: 2px solid #DE2E54;
  }
 
  .button:active {
@@ -324,7 +338,7 @@ margin-bottom: 40px;
  padding: 12px 24px 12px 24px;
  border: 2px solid #fff;
  border-radius: 8px;
- transition: color 0.5s ease opacity 0.5s ease;
+ transition: color 0.3s ease opacity 0.3s ease;
 }
 
 .tarmoq:hover {
@@ -366,7 +380,7 @@ margin-bottom: 40px;
  text-transform: uppercase;
  margin: 0;
  margin-left: 32px;
- transition: color 0.5s ease opacity 0.5s ease;
+ transition: color 0.3s ease opacity 0.3s ease;
 }
 
 .footer-nav:hover {
