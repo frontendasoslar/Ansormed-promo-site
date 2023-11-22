@@ -1,0 +1,247 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Open sans", "Arial" sans-serif;
+  color: #444444;
+}
+
+ul {
+  list-style: none;
+}
+
+ul a {
+  text-decoration: none;
+  font-size: 14px;
+  font-style: normal;
+  font-family: "Open sans", "Arial", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.5;
+  letter-spacing: 2px;
+}
+/* Header qismi */
+.site-header {
+ background-color: #fff;
+}
+
+/* Sayt logosi */
+
+.logo-site {
+  width: 187px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo */
+.logo {
+  width: 50px;
+  height: 50px;
+  transition: opacity 0.5s ease;
+}
+
+.logo:hover {
+  opacity: 0.8;
+}
+
+.logo:active {
+  opacity: 0.6;
+}
+
+/* Logo matni */
+.logo-text {
+  font-size: 24px;
+  font-family: "Open sans", "Arial", sans-serif;
+  font-weight: 700;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  transition: opacity 0.5s ease, color 0.5s ease;
+}
+
+.logo-text:hover {
+  color: #DE2E54;
+}
+
+.logo-text:active {
+  opacity: 0.6;
+  color: #DE2E54;
+}
+
+/* heaner navigatsiyasi matni */
+.header-nav-text {
+  color: #222;
+  transition: opacity 0.5s ease, color 0.5s ease;
+}
+
+.header-nav-text:hover {
+ opacity: 0.8;
+ color: #DE2E54;
+}
+
+.header-nav-text:active {
+  opacity: 0.6;
+  color: #DE2E54;
+ }
+
+ .button {
+  width: 190px;
+  background-color: #DE2E54;
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "Open sans", "Arial", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 12px 24px 12px 24px;
+  border: 2px solid #DE2E54;
+  border-radius: 8px;
+  transition: opacity ;
+ }
+
+ /* Hero qismi */
+ .hero {
+  background-color: #0EB4C1;
+ }
+
+ .hero-content {
+  font-size: 36px;
+  font-family: "Open sans", "Arial", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 43.2px;
+  color: #fff;
+  margin: 0;
+  margin-bottom: 16px;
+ }
+
+ .hero-content-text {
+  font-size: 18px;
+  font-family: "open sans", "arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
+  margin: 0;
+  margin-bottom: 36px;
+ }
+
+ /* Hizmatlar qismi */
+
+ .service {
+  font-size: 36px;
+  font-family: "open sans", "arial", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #222;
+  margin: 0;
+  margin-bottom: 56px;
+ }
+
+ .services {
+  margin: 0;
+  margin-bottom: 80px;
+ }
+
+ .services:last-child {
+  margin-bottom: 0;
+ }
+
+
+ .frame {
+  font-family: "open sans", "Arial", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #222;
+  margin: 0;
+  margin-bottom: 24px;
+ }
+
+ .frame-text {
+  margin: 0;
+  font-family: "Open sans", "arial", sans-serif;
+ }
+
+ /* Sayt footer qismi */
+
+.site-footer {
+ background-color: #0EB4C1;
+ height: 253px;
+}
+
+.qabul {
+ font-size: 36px;
+ font-family: "Open-sans", "Arial", sans-serif;
+font-weight: 700;
+line-height: 43.2px;
+color: #fff;
+margin: 0;
+margin-bottom: 52px;
+}
+
+.tarmoq {
+  text-decoration: none;
+}
+.footer {
+  background-color: #222;
+}
+
+.logo-text-2 {
+ color: #fff;
+}
+
+.tarmoq {
+ color: #fff;
+ font-family: "open sans", "arial", sans-serif;
+ font-size: 15px;
+ font-style: normal;
+ font-weight: 700;
+ line-height: 1.2;
+ letter-spacing: 2px;
+ text-transform: uppercase;
+ padding: 12px 24px 12px 24px;
+ border: 2px solid #fff;
+ border-radius: 8px;
+ transition: color 0.5s ease opacity 0.5s ease;
+}
+
+.tarmoq:hover {
+  background-color: #DE2E54;
+  border: 2px solid #DE2E54;
+}
+
+.tarmoq:active {
+  opacity: 0.6;
+}
+
+/* Footer navigatsiyasi */
+
+.footer-nav {
+ color: #fff;
+ font-family: "open sans", arial, sans-serif;
+ font-size: 14px;
+ font-style: normal;
+ font-weight: 700;
+ line-height: 1.5;
+ letter-spacing: 2px;
+ text-transform: uppercase;
+ transition: color 0.5s ease opacity 0.5s ease;
+}
+
+.footer-nav:hover {
+  color: #DE2E54;
+}
+
+.footer-nav:active {
+  opacity: 0.6;
+}
