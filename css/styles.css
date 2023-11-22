@@ -104,6 +104,7 @@ ul a {
 
 .logo:hover {
   opacity: 0.8;
+  outline: 0;
 }
 
 .logo:active {
@@ -124,11 +125,13 @@ ul a {
 
 .logo-text:hover {
   color: #DE2E54;
+  outline: 0;
 }
 
 .logo-text:active {
   opacity: 0.6;
   color: #DE2E54;
+  outline: 0;
 }
 
 /* heaner navigatsiyasi matni */
@@ -138,13 +141,14 @@ ul a {
 }
 
 .header-nav-text:hover {
- opacity: 0.8;
  color: #DE2E54;
+ outline: 0;
 }
 
 .header-nav-text:active {
   opacity: 0.6;
   color: #DE2E54;
+  outline: 0;
  }
 
  .button {
@@ -350,10 +354,12 @@ margin-bottom: 40px;
 .tarmoq:hover {
   background-color: #DE2E54;
   border: 2px solid #DE2E54;
+  outline: 0;
 }
 
 .tarmoq:active {
   opacity: 0.6;
+  outline: 0;
 }
 
 /* Footer navigatsiyasi */
@@ -391,8 +397,10 @@ margin-bottom: 40px;
 
 .footer-nav:hover {
   color: #DE2E54;
+  outline: 0;
 }
 
 .footer-nav:active {
   opacity: 0.6;
+  outline: 0;
 }
