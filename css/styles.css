@@ -28,8 +28,55 @@ ul a {
  background-color: #fff;
 }
 
-/* Sayt logosi */
+.contanier {
+ width: 100%;
+ max-width: 1120px;
+ padding-left: 10px;
+ padding-right: 10px;
+ margin-left: auto;
+ margin-right: auto;
+}
 
+.header-contanier {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.site-nav {
+ display: flex;
+ align-items: center;
+ justify-content:center;
+}
+
+.nav {
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.site-nav-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-nav-text {
+  margin-right: 32px;
+}
+
+.header-nav-text-1 {
+  margin: 0;
+  margin-right: 70px;
+}
+
+/* Sayt logosi */
 .logo-site {
   width: 187px;
   display: flex;
@@ -89,7 +136,6 @@ ul a {
  }
 
  .button {
-  width: 190px;
   background-color: #DE2E54;
   color: #fff;
   text-decoration: none;
@@ -103,12 +149,26 @@ ul a {
   padding: 12px 24px 12px 24px;
   border: 2px solid #DE2E54;
   border-radius: 8px;
-  transition: opacity ;
+  transition: opacity 0.5s ease ;
+ }
+
+ .button:hover {
+  opacity: 0.8;
+ }
+
+ .button:active {
+  opacity: 0.6;
  }
 
  /* Hero qismi */
  .hero {
   background-color: #0EB4C1;
+ }
+
+ .hero-contanier {
+  display: flex;
+  justify-content: center;
+  align-items: center;
  }
 
  .hero-content {
@@ -144,17 +204,42 @@ ul a {
   color: #222;
   margin: 0;
   margin-bottom: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 120px;
  }
 
  .services {
   margin: 0;
   margin-bottom: 80px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+ }
+
+ .services-text {
+  margin: 0;
+  margin-left: 64px;
  }
 
  .services:last-child {
   margin-bottom: 0;
  }
 
+ .services-img {
+  display: block;
+  box-shadow: 0px 12px 24px 08px rgba(0, 107, 116, 0.30);
+  border-radius: 24px;
+ }
+
+ .service-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  margin-bottom: 120px;
+ }
 
  .frame {
   font-family: "open sans", "Arial", sans-serif;
@@ -176,7 +261,15 @@ ul a {
 
 .site-footer {
  background-color: #0EB4C1;
- height: 253px;
+}
+
+.footer-contanier {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding-top: 164px;
+  padding-bottom: 64px;
 }
 
 .qabul {
@@ -186,14 +279,32 @@ font-weight: 700;
 line-height: 43.2px;
 color: #fff;
 margin: 0;
-margin-bottom: 52px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 64px;
+margin-bottom: 40px;
 }
 
 .tarmoq {
   text-decoration: none;
 }
+
+.tarmoq-1 {
+  margin: 0;
+  margin-right: 20px;
+}
+
+.tarmoq-2 {
+  margin: 0;
+  margin-left: 20px;
+}
 .footer {
   background-color: #222;
+}
+
+.footer-contanier {
+ padding-top: 0;
 }
 
 .logo-text-2 {
@@ -226,6 +337,23 @@ margin-bottom: 52px;
 
 /* Footer navigatsiyasi */
 
+.footer-contanier-1 {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.footer-nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
 .footer-nav {
  color: #fff;
  font-family: "open sans", arial, sans-serif;
@@ -235,6 +363,8 @@ margin-bottom: 52px;
  line-height: 1.5;
  letter-spacing: 2px;
  text-transform: uppercase;
+ margin: 0;
+ margin-left: 32px;
  transition: color 0.5s ease opacity 0.5s ease;
 }
 
